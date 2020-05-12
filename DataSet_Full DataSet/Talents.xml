@@ -7473,4 +7473,158 @@
     </ChooseCareerSkills>
     <Activation>Passive</Activation>
   </Talent>
+  <Talent>
+    <Key>IMPBRC</Key>
+    <Name>Improved Brace</Name>
+    <Description>When the character performs the Brace maneuver, they may choose one environmental circumstance. The benefits of Brace apply to that circumstance until the end of the encounter.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>SPRMBRC</Key>
+    <Name>Supreme Brace</Name>
+    <Description>When the character performs the Brance maneuver the benefits apply to all allies within short range.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>NTRLTRPR</Key>
+    <Name>Natural Trooper </Name>
+    <Description>Once session, may reroll any one Gunnery or Ranger (Heavy) check.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>LTRLTHNKNG</Key>
+    <Name>Lateral Thinking</Name>
+    <Description>Once per encounter, spend one Destiny Point to force an enemy to reroll a sucessful check targeting the character. Dose not require a Destiny Point if the enemy is a droid.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>FRSPPRT</Key>
+    <Name>Fire Support</Name>
+    <Description>After the character makes a successful combat check using a vechicle weapon, the next ally to make a check adds [BO] equal to ranks of Fire Support</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>BRRLRLL</Key>
+    <Name>Barrel Roll</Name>
+    <Description>While piloting a vehivle or starship of silhouette 3 or less, when hit by an attack, suffer 3 system strain to reduce the damage of one hit by ranks in Piloting.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>ASSLTDRP</Key>
+    <Name>Assault Drop</Name>
+    <Description>Once per session, the character may perform the Assault Drop incidental to allow allies to embark or disembark from a vehicle or ship they are piloting as an out-of-turn incidental. </Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>IMPBRRLRLL</Key>
+    <Name>Improved Barrel Roll</Name>
+    <Description>When the character takes the Barrel Roll incidental reduce the damage of all hits of the attack by ranks in Piloting. </Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>NTROPRTR</Key>
+    <Name>Natural Operator</Name>
+    <Description>Once per session, may reroll any 1 Piloting (Planetary) or Piloting (Space) check.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>SPRMBRRLRLL</Key>
+    <Name>Supreme Barrel Roll</Name>
+    <Description>When using Barrel Roll against  certain weapons, may spend [DE] or [TH][TH][TH] to inflict one hit on an enemy vehicle within close range, dealing base gamage of the original attack.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>MSSNCRTCL</Key>
+    <Name>Mission Critical</Name>
+    <Description>Once per session after rolling a  Piloting (Planetary) or  Piloting (Space) check but before resolving it, the  character may spend a Destiny Point to add [SU] or [AD] to the results equal to their ranks in that skill.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
 </Talents>
