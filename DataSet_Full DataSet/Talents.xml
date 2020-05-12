@@ -7384,4 +7384,93 @@
     <ActivationValue>taPassive</ActivationValue>
     <Activation>Passive</Activation>
   </Talent>
+  <Talent>
+    <Key>CLNKRKLLR</Key>
+    <Name>Clanker Killer</Name>
+    <Description>Before rolling a combat check that targets a droid, remove [BO] up to the ranks in Clanker Killer from the pool, and add an equal number of  [SU] or [AD] to the results.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>IMPCLNKRKLR</Key>
+    <Name>Improved Clanker Killer</Name>
+    <Description>Decreases the critical rating of Brawl and Melee attacks targeting droids by per rank of Clanker Killer,  to a minimun of 1.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <Damage>
+      <Skills>
+        <Key>MELEE</Key>
+      </Skills>
+    </Damage>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>KNPROG</Key>
+    <Name>Known Programming</Name>
+    <Description>Once per session, make a [B]Hard([DI][DI][DI]) Vigilance check[b] to upgrade the difficulty of a certian droid model's checks against the character, plus one alley per [SU] after the frist, once for the rest of the encounter. </Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>IMPKNPROG</Key>
+    <Name>Improved Known Programing</Name>
+    <Description>Allies affected by Known Programming also upgrade the ability of their checks targeting the chosen droid model once.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>SURVIVORINSTINCTS</Key>
+    <Name>Survivor's Instincts</Name>
+    <Description>Once per session when the character suffers a Critical Injury, spend 1  Destiny Point. Then, the attacker must roll two results for the must roll two results for the Critical Injury and the player chooses which will apply to their character.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>COMBATVET</Key>
+    <Name>Combat Veteran</Name>
+    <Description>The character adds [BO] to their Brawl and Discipline checks equal to their ranks in Combat Veteran.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
 </Talents>

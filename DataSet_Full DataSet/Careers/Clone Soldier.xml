@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CLONESOLDIER</Key>
+  <Name>Clone Soldier</Name>
+  <Description>[H4]Clone Soldier[h4]
+Please see User Data for details.</Description>
+  <Source>User Data</Source>
+  <Custom>AddedItem</Custom>
+  <CareerSkills>
+    <Key>ATHL</Key>
+    <Key>BRAWL</Key>
+    <Key>COOL</Key>
+    <Key>DISC</Key>
+    <Key>MED</Key>
+    <Key>RANGHVY</Key>
+    <Key>RANGLT</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>CLONEVETERAN</Key>
+  </Specializations>
+  <Attributes />
+  <FreeRanks>4</FreeRanks>
+</Career>
