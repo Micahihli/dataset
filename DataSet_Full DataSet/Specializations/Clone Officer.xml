@@ -1,31 +1,31 @@
 <?xml version="1.0"?>
 <Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>CLNETRPR</Key>
-  <Name>Clone Trooper</Name>
-  <Description>[H4]Clone Trooper[h4]
+  <Key>CLNOFFCR</Key>
+  <Name>Clone Officer</Name>
+  <Description>[H4]Clone Officer[h4]
 Please see User Data for details.</Description>
   <Source>User Data</Source>
   <Custom>AddedItem</Custom>
   <CareerSkills>
-    <Key>GUNN</Key>
-    <Key>PERC</Key>
-    <Key>RANGHVY</Key>
-    <Key>RESIL</Key>
+    <Key>COOL</Key>
+    <Key>LEAD</Key>
+    <Key>OUT</Key>
+    <Key>WARF</Key>
   </CareerSkills>
   <TalentRows>
     <TalentRow>
       <Cost>5</Cost>
       <Talents>
+        <Key>PRIMEPOS</Key>
         <Key>GRIT</Key>
-        <Key>PHYSTRAIN</Key>
-        <Key>TOUGH</Key>
-        <Key>BRA</Key>
+        <Key>GRIT</Key>
+        <Key>COM</Key>
       </Talents>
       <Directions>
-        <Direction />
         <Direction>
           <Down>true</Down>
         </Direction>
+        <Direction />
         <Direction />
         <Direction>
           <Down>true</Down>
@@ -35,22 +35,24 @@ Please see User Data for details.</Description>
     <TalentRow>
       <Cost>10</Cost>
       <Talents>
-        <Key>SUPPRFIRE</Key>
+        <Key>TCTCLADV</Key>
+        <Key>COM</Key>
+        <Key>ASTEPAHEAD</Key>
         <Key>CLNKRKLLR</Key>
-        <Key>BRA</Key>
-        <Key>TOUGH</Key>
       </Talents>
       <Directions>
         <Direction>
           <Right>true</Right>
-        </Direction>
-        <Direction>
-          <Left>true</Left>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
         <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
           <Right>true</Right>
+          <Down>true</Down>
         </Direction>
         <Direction>
           <Left>true</Left>
@@ -62,28 +64,25 @@ Please see User Data for details.</Description>
     <TalentRow>
       <Cost>15</Cost>
       <Talents>
-        <Key>ARMIMP</Key>
-        <Key>DEADACC</Key>
-        <Key>SUPPRFIRE</Key>
-        <Key>IMPBRC</Key>
+        <Key>PRIMEPOS</Key>
+        <Key>COORDASS</Key>
+        <Key>COORDASS</Key>
+        <Key>TOUGH</Key>
       </Talents>
       <Directions>
         <Direction>
-          <Right>true</Right>
-          <Down>true</Down>
-        </Direction>
-        <Direction>
-          <Left>true</Left>
-          <Right>true</Right>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
         <Direction>
-          <Left>true</Left>
-          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
         </Direction>
         <Direction>
-          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
@@ -92,24 +91,27 @@ Please see User Data for details.</Description>
     <TalentRow>
       <Cost>20</Cost>
       <Talents>
-        <Key>TOUGH</Key>
-        <Key>CLNKRKLLR</Key>
-        <Key>ENDUR</Key>
-        <Key>SPRMBRC</Key>
+        <Key>FLDCOMM</Key>
+        <Key>IMPTCTCLADV</Key>
+        <Key>FRSTAMNGBR</Key>
+        <Key>SCRPM</Key>
       </Talents>
       <Directions>
         <Direction>
+          <Right>true</Right>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
         <Direction>
+          <Left>true</Left>
           <Up>true</Up>
-          <Down>true</Down>
         </Direction>
         <Direction>
-          <Down>true</Down>
+          <Right>true</Right>
+          <Up>true</Up>
         </Direction>
         <Direction>
+          <Left>true</Left>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
@@ -118,10 +120,10 @@ Please see User Data for details.</Description>
     <TalentRow>
       <Cost>25</Cost>
       <Talents>
-        <Key>ARMIMP</Key>
-        <Key>NTRLTRPR</Key>
+        <Key>FLDCOMMIMP</Key>
         <Key>DEDI</Key>
-        <Key>LTRLTHNKNG</Key>
+        <Key>IMPSCRPM</Key>
+        <Key>FRTHRBLC</Key>
       </Talents>
       <Directions>
         <Direction>
@@ -131,12 +133,10 @@ Please see User Data for details.</Description>
         <Direction>
           <Left>true</Left>
           <Right>true</Right>
-          <Up>true</Up>
         </Direction>
         <Direction>
           <Left>true</Left>
           <Right>true</Right>
-          <Up>true</Up>
         </Direction>
         <Direction>
           <Left>true</Left>

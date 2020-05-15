@@ -6,6 +6,12 @@
 Please see User Data for details.</Description>
   <Source>User Data</Source>
   <Custom>AddedItem</Custom>
+  <CareerSkills>
+    <Key>GUNN</Key>
+    <Key>MECH</Key>
+    <Key>PILOTPL</Key>
+    <Key>PILOTSP</Key>
+  </CareerSkills>
   <TalentRows>
     <TalentRow>
       <Cost>5</Cost>

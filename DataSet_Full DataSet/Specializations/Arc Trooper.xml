@@ -1,32 +1,30 @@
 <?xml version="1.0"?>
 <Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>CLNETRPR</Key>
-  <Name>Clone Trooper</Name>
-  <Description>[H4]Clone Trooper[h4]
+  <Key>ARCTRPR</Key>
+  <Name>Arc Trooper</Name>
+  <Description>[H4]Arc Trooper[h4]
 Please see User Data for details.</Description>
   <Source>User Data</Source>
   <Custom>AddedItem</Custom>
-  <CareerSkills>
-    <Key>GUNN</Key>
-    <Key>PERC</Key>
-    <Key>RANGHVY</Key>
-    <Key>RESIL</Key>
-  </CareerSkills>
   <TalentRows>
     <TalentRow>
       <Cost>5</Cost>
       <Talents>
+        <Key>TOUGH</Key>
         <Key>GRIT</Key>
         <Key>PHYSTRAIN</Key>
-        <Key>TOUGH</Key>
-        <Key>BRA</Key>
+        <Key>CONDITIONED</Key>
       </Talents>
       <Directions>
-        <Direction />
         <Direction>
           <Down>true</Down>
         </Direction>
-        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
         <Direction>
           <Down>true</Down>
         </Direction>
@@ -35,25 +33,28 @@ Please see User Data for details.</Description>
     <TalentRow>
       <Cost>10</Cost>
       <Talents>
-        <Key>SUPPRFIRE</Key>
         <Key>CLNKRKLLR</Key>
-        <Key>BRA</Key>
-        <Key>TOUGH</Key>
+        <Key>QUICKST</Key>
+        <Key>KNOCK</Key>
+        <Key>POINTBL</Key>
       </Talents>
       <Directions>
         <Direction>
           <Right>true</Right>
-        </Direction>
-        <Direction>
-          <Left>true</Left>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
         <Direction>
+          <Left>true</Left>
           <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
         </Direction>
         <Direction>
           <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
@@ -62,18 +63,16 @@ Please see User Data for details.</Description>
     <TalentRow>
       <Cost>15</Cost>
       <Talents>
-        <Key>ARMIMP</Key>
-        <Key>DEADACC</Key>
-        <Key>SUPPRFIRE</Key>
-        <Key>IMPBRC</Key>
+        <Key>TOUGH</Key>
+        <Key>SWIFT</Key>
+        <Key>POINTBL</Key>
+        <Key>GUNSBLAZING</Key>
       </Talents>
       <Directions>
         <Direction>
-          <Right>true</Right>
-          <Down>true</Down>
+          <Up>true</Up>
         </Direction>
         <Direction>
-          <Left>true</Left>
           <Right>true</Right>
           <Up>true</Up>
           <Down>true</Down>
@@ -92,24 +91,26 @@ Please see User Data for details.</Description>
     <TalentRow>
       <Cost>20</Cost>
       <Talents>
-        <Key>TOUGH</Key>
+        <Key>QUICKST</Key>
+        <Key>GRIT</Key>
         <Key>CLNKRKLLR</Key>
-        <Key>ENDUR</Key>
-        <Key>SPRMBRC</Key>
+        <Key>NTRLCMMND</Key>
       </Talents>
       <Directions>
         <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
           <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
           <Down>true</Down>
         </Direction>
         <Direction>
-          <Up>true</Up>
-          <Down>true</Down>
-        </Direction>
-        <Direction>
-          <Down>true</Down>
-        </Direction>
-        <Direction>
+          <Left>true</Left>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
@@ -118,10 +119,10 @@ Please see User Data for details.</Description>
     <TalentRow>
       <Cost>25</Cost>
       <Talents>
-        <Key>ARMIMP</Key>
-        <Key>NTRLTRPR</Key>
+        <Key>GTTHDRP</Key>
+        <Key>ASTEPAHEAD</Key>
         <Key>DEDI</Key>
-        <Key>LTRLTHNKNG</Key>
+        <Key>RPDFR</Key>
       </Talents>
       <Directions>
         <Direction>
@@ -131,7 +132,6 @@ Please see User Data for details.</Description>
         <Direction>
           <Left>true</Left>
           <Right>true</Right>
-          <Up>true</Up>
         </Direction>
         <Direction>
           <Left>true</Left>

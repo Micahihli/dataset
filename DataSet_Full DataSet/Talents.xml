@@ -7627,4 +7627,271 @@
     </ChooseCareerSkills>
     <Activation>Action</Activation>
   </Talent>
+  <Talent>
+    <Key>TCTCLADV</Key>
+    <Name>Tactical Advance</Name>
+    <Description>The character may suffer 2 strain to preform the Tactical Advance incidental. Until the end of the character's next turn, the character and allies within short range may leave cover and continue to receice its benefits.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>FRSTAMNGBR</Key>
+    <Name>First Among Brothers</Name>
+    <Description>When the character makes a check that does not generate any [TH], the check gains [AD] equal to ranks in First Among Brothers. The character may only spend these additional [AD] to affect allied clones.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>IMPTCTCLADV</Key>
+    <Name>Improved Tactical Advance</Name>
+    <Description>The character may spend [AD][AD] from any check they make or [TH][TH] from a combat check targeting them to perform the Tactical Advance incidental (instead of suffering strain).
+</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>SCRPM</Key>
+    <Name>Scrap 'Em!</Name>
+    <Description>On a successful attack, may suffer 2 strain and select allies up to ranks in Leadership, who add [BO] to attacks against the target until the character's next turn.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>IMPSCRPM</Key>
+    <Name>Improved Scrap Em!</Name>
+    <Description>Scrap 'em! affects twice the number of allies,  and allies add [BO][BO] to combat checks against the target.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>FRTHRBLC</Key>
+    <Name>For the Republic</Name>
+    <Description>When  an ally is incapacitated or killed, the character can make a Daunting ([DI][DI][DI][DI]) Leadership check. If successful, the ally is not defeated until the end of the following round.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>GTTHDRP</Key>
+    <Name>Get the Drop</Name>
+    <Description>Once per session, the character and any number of allies in the encounter may add [SU] equal to the character's rank's in Stealth  to their checks to determine Initiative order.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>TCTCLEVSN</Key>
+    <Name>Tactical Evasion</Name>
+    <Description>Upgrage the difficulty of ranged combat checks targeting the character a number of times equal to the number of maneuvers they performed to move during this round.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>NTRLCMMND</Key>
+    <Name>Natural Commando</Name>
+    <Description>Once per session, the character may reroll one Ranged (Light) or Stealth check.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>RPDFR</Key>
+    <Name>Rapid Fire</Name>
+    <Description>May perform add the Autofire item quality to a Ranged (Light) combat check. After resolving the attack, the weapon runs out of ammo.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>NGRNDLLTY</Key>
+    <Name>Ingrained Loyalty</Name>
+    <Description>When the character makes a Leadership check targeting one or more clones, they may change the result of one [CH] to any non-blank face.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>ENDRGPRSNC</Key>
+    <Name>Enduring Presence</Name>
+    <Description>Once per session, the character may upgrade a Mass Combate check even if the character is not present or is prevented form communicating with their troops.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>FRMTNTCTCS</Key>
+    <Name>Formation Tactics</Name>
+    <Description>Make a [B]Hard ([DI][DI][DI]) Leadership check.[b] If successful, choose a number of allies within short range equal to  [SU]. Upgrade the difficulty of attacks against these allies once until end of character's next turn.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>TNCST</Key>
+    <Name>At any Cost</Name>
+    <Description>May suffer a Critical Injury to reroll a Mass Combat check. At the GM's discretion, may sacrifice an item or idividual of personal significance instead. </Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>TCTCLPLNNG</Key>
+    <Name>Tactical Planning</Name>
+    <Description>Once per session, the character may substitute a Knowledge (Warfare) skill check for another skill check.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>MPRVDTACTCS</Key>
+    <Name>Improved Formation Tactics</Name>
+    <Description>The difficulty of Formation Tactics is reduced to [B]Average ([DI][DI]).[b] May spend [TR] or [AD][AD][AD][AD][AD][AD] to have effect last until end of encounter.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>TMNVR</Key>
+    <Name>Outmaneuver</Name>
+    <Description>As an action, make a [B]Hard ([DI][DI][DI]) Knowledge(Warfare) check.[b] Choose one ship or vechicle per [SU]. Until the end of the character's next turn, the chosen ships must perform one extra maneuver to move. </Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>PRCTCDSTRTGST</Key>
+    <Name>Practiced Strategiest</Name>
+    <Description>Ocen  per session, make an [B]opppsed Knowledge (Warfare) check [b]against a leader of enemy Forces to gain an marrative advantage. </Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>NGRNDLLT</Key>
+    <Name>Ingrained Loyality</Name>
+    <Description>When the character makes a Leadership check targeting one or more clones, they may change the result of one [CH] to any non-blank face.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
 </Talents>

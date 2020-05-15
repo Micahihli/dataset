@@ -1,44 +1,44 @@
 <?xml version="1.0"?>
 <Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>CLNETRPR</Key>
-  <Name>Clone Trooper</Name>
-  <Description>[H4]Clone Trooper[h4]
+  <Key>CLNCMMNDR</Key>
+  <Name>Clone Commander</Name>
+  <Description>[H4]Clone Commander[h4]
 Please see User Data for details.</Description>
   <Source>User Data</Source>
   <Custom>AddedItem</Custom>
   <CareerSkills>
-    <Key>GUNN</Key>
+    <Key>CORE</Key>
+    <Key>LEAD</Key>
     <Key>PERC</Key>
-    <Key>RANGHVY</Key>
-    <Key>RESIL</Key>
+    <Key>WARF</Key>
   </CareerSkills>
   <TalentRows>
     <TalentRow>
       <Cost>5</Cost>
       <Talents>
         <Key>GRIT</Key>
-        <Key>PHYSTRAIN</Key>
+        <Key>COMMPRES</Key>
+        <Key>RESEARCH</Key>
         <Key>TOUGH</Key>
-        <Key>BRA</Key>
       </Talents>
       <Directions>
         <Direction />
         <Direction>
           <Down>true</Down>
         </Direction>
-        <Direction />
         <Direction>
           <Down>true</Down>
         </Direction>
+        <Direction />
       </Directions>
     </TalentRow>
     <TalentRow>
       <Cost>10</Cost>
       <Talents>
-        <Key>SUPPRFIRE</Key>
         <Key>CLNKRKLLR</Key>
-        <Key>BRA</Key>
-        <Key>TOUGH</Key>
+        <Key>NGRNDLLT</Key>
+        <Key>CLEVCOMM</Key>
+        <Key>GRIT</Key>
       </Talents>
       <Directions>
         <Direction>
@@ -46,15 +46,17 @@ Please see User Data for details.</Description>
         </Direction>
         <Direction>
           <Left>true</Left>
+          <Right>true</Right>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
         <Direction>
+          <Left>true</Left>
           <Right>true</Right>
+          <Up>true</Up>
         </Direction>
         <Direction>
           <Left>true</Left>
-          <Up>true</Up>
           <Down>true</Down>
         </Direction>
       </Directions>
@@ -62,10 +64,10 @@ Please see User Data for details.</Description>
     <TalentRow>
       <Cost>15</Cost>
       <Talents>
-        <Key>ARMIMP</Key>
-        <Key>DEADACC</Key>
-        <Key>SUPPRFIRE</Key>
-        <Key>IMPBRC</Key>
+        <Key>FRSTAMNGBR</Key>
+        <Key>COMMPRES</Key>
+        <Key>ENDRGPRSNC</Key>
+        <Key>FRMTNTCTCS</Key>
       </Talents>
       <Directions>
         <Direction>
@@ -80,10 +82,8 @@ Please see User Data for details.</Description>
         </Direction>
         <Direction>
           <Left>true</Left>
-          <Right>true</Right>
         </Direction>
         <Direction>
-          <Left>true</Left>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
@@ -92,24 +92,28 @@ Please see User Data for details.</Description>
     <TalentRow>
       <Cost>20</Cost>
       <Talents>
-        <Key>TOUGH</Key>
-        <Key>CLNKRKLLR</Key>
-        <Key>ENDUR</Key>
-        <Key>SPRMBRC</Key>
+        <Key>FRSTAMNGBR</Key>
+        <Key>STNERV</Key>
+        <Key>TCTCLPLNNG</Key>
+        <Key>MPRVDTACTCS</Key>
       </Talents>
       <Directions>
         <Direction>
+          <Right>true</Right>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
         <Direction>
+          <Left>true</Left>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
         <Direction>
+          <Right>true</Right>
           <Down>true</Down>
         </Direction>
         <Direction>
+          <Left>true</Left>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
@@ -118,10 +122,10 @@ Please see User Data for details.</Description>
     <TalentRow>
       <Cost>25</Cost>
       <Talents>
-        <Key>ARMIMP</Key>
-        <Key>NTRLTRPR</Key>
+        <Key>TNCST</Key>
         <Key>DEDI</Key>
-        <Key>LTRLTHNKNG</Key>
+        <Key>TMNVR</Key>
+        <Key>PRCTCDSTRTGST</Key>
       </Talents>
       <Directions>
         <Direction>
